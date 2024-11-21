@@ -1,0 +1,118 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto&family=Rubik+Moonrocks&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', 'sans serif';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald','sans serif';
+}
+
+header {
+    margin-bottom: 59px;
+}
+
+svg, svg:hover{
+    stroke: grey;
+    stroke-width: 1px;
+    fill: grey;
+}
+
+.carousel-item > img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(35%);
+}
+
+.carousel-item {
+    min-height: 65vh;
+    max-height: 65vh;
+    height: 65vh;
+    width: 100%;
+
+}
+
+.carousel-caption > h2 {
+    font-size: 3rem;
+}
+
+.carousel-caption > p {
+    font-size: 1.2rem;
+}
+
+main .rounded-circle {
+    object-fit: cover;
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#alternati img {
+    object-fit: cover;
+    height: 500px;
+    min-height: 450px;
+    width: 100%;
+}
+
+footer {
+    font-size: 0.8rem;
+}
+
+.about {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)),
+        url(img/about-section-1.jpg);
+    background-position: center 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.about, .menu h1 {
+    font-size: 5rem;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+}
+
+.gallery img {
+    object-fit: cover;
+}
+
+.menu {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)),
+        url(img/about-section-1.jpg);
+    background-position: center 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.img-menu {
+    object-fit: cover;
+}
+
+.hero-content {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)),
+        url(img/menu-dish.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 55vh;
+}
+
+.opaco {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.opaco img {
+    max-width: 300px;
+}
