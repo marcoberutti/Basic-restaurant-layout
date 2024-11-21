@@ -116,3 +116,14 @@ footer {
 .opaco img {
     max-width: 300px;
 }
+
+@media (max-width: 768px){
+
+  .platesContainer{
+    width: 100%!important;
+  }
+
+  .menuCard img {
+    border-radius: 5px 5px 0 0!important;
+  }
+}
